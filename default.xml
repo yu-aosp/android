@@ -22,20 +22,16 @@
   <project path="kernel/yu/msm8916" name="yu-aosp/android_kernel_yu_msm8916" />
   <project path="vendor/yu" name="yu-aosp/proprietary_vendor_yu" />
   <project path="packages/apps/Settings" name="yu-aosp/android_packages_apps_Settings" />
-  <!-- <project path="packages/apps/SetupWizard" name="yu-aosp/android_packages_apps_SetupWizard" /> -->
   <project path="frameworks/opt/setupwizard" name="yu-aosp/android_frameworks_opt_setupwizard" />
 
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
 
   <!-- CYANOGENMOD -->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.0" /> 
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.0" />
   
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
-  <project path="android" name="CyanogenMod/android" revision="cm-12.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" revision="cm-12.0" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" revision="cm-12.0" />
@@ -64,6 +60,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.0" /> 
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
