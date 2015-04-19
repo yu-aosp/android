@@ -23,6 +23,7 @@
   <project path="vendor/yu" name="yu-aosp/proprietary_vendor_yu" />
   <project path="packages/apps/Settings" name="yu-aosp/android_packages_apps_Settings" />
   <project path="frameworks/opt/setupwizard" name="yu-aosp/android_frameworks_opt_setupwizard" />
+  <project path="vendor/yu-aosp" name="yu-aosp/android_vendor_yu-aosp" />
 
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
 
@@ -585,6 +586,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" revision="cm-12.0" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.0" />
 </manifest>
