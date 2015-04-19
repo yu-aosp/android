@@ -25,6 +25,8 @@
   <!-- <project path="packages/apps/SetupWizard" name="yu-aosp/android_packages_apps_SetupWizard" /> -->
   <project path="frameworks/opt/setupwizard" name="yu-aosp/android_frameworks_opt_setupwizard" />
 
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
+
   <!-- CYANOGENMOD -->
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.0" /> 
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.0" />
@@ -484,7 +486,6 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" revision="cm-12.0" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" revision="cm-12.0" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" revision="cm-12.0" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" revision="cm-12.0" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" revision="cm-12.0" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" revision="cm-12.0" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" revision="cm-12.0" />
