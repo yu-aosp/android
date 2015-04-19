@@ -18,6 +18,10 @@
            sync-j="4" />
 
   <!-- YU AOSP -->
+  <project path="build" name="yu-aosp/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <project path="device/yu/tomato" name="yu-aosp/android_device_yu_tomato" /> 
   <project path="kernel/yu/msm8916" name="yu-aosp/android_kernel_yu_msm8916" />
   <project path="frameworks/base" name="yu-aosp/android_frameworks_base" />
@@ -25,14 +29,9 @@
   <project path="vendor/yu-aosp" name="yu-aosp/android_vendor_yu-aosp" />
   <project path="vendor/yu" name="yu-aosp/proprietary_vendor_yu" />
 
-
   <!-- CYANOGENMOD -->
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.0" />
   
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" revision="cm-12.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" revision="cm-12.0" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" revision="cm-12.0" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" revision="cm-12.0" />
