@@ -32,6 +32,8 @@
   <project path="vendor/yu" name="yu-aosp/proprietary_vendor_yu" revision="android-5.1" />
 
   <!-- CYANOGENMOD -->
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+
   <!-- <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
